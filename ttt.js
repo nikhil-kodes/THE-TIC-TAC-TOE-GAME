@@ -42,10 +42,9 @@ function checkWinner(){
         if(pos1 == pos2 && pos2 == pos3){
             setTimeout(declareWinner(pos1),1000);
             return true;
-        }else{
-            return false;
         }
     }
+        return false;
     }
    
 }
