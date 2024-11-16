@@ -68,4 +68,5 @@ function enableBoxes(){
 function reset(){
     turnO=true;
     enableBoxes();
+    ctr=0;
 }
